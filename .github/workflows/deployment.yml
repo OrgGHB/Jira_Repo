@@ -37,7 +37,7 @@ jobs:
         with:
           state: ${{ job.status }}
           environment: Staging
-          issue: MOBL-42
+          issue: MOBL-42, MOBL-44
       # Comma separated list of issues being deployed/released. You are expected to generate this yourself in a previous step for releases
           jira_instance: companyname  # Subdomain for Jira Cloud
           client_id: ${{ secrets.JIRA_CLIENT_ID }}
