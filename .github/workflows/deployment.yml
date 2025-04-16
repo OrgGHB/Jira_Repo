@@ -36,7 +36,7 @@ jobs:
         uses: rohit-gohri/jira-ci-cd-integration@v0
         with:
           state: ${{ job.status }}
-          environment: Staging Env
+          environment: Staging
           issue: MOBL-42
       # Comma separated list of issues being deployed/released. You are expected to generate this yourself in a previous step for releases
           jira_instance: companyname  # Subdomain for Jira Cloud
